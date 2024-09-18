@@ -108,7 +108,7 @@ public class Application {
             log.info("Modify event fired, previous value: " + event.oldGreeting
                     + ", new value: " + event.newGreeting);
             log.info("Indexed event previous value: " + Numeric.toHexString(event.oldGreetingIdx)
-                    + ", new value: " + Numeric.toHexString(event.newGreetingIdx));
+                    + ", new value: " + Numeric(event.newGreetingIdx));
         }
     }
 }
